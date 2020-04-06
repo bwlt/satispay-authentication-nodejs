@@ -1,0 +1,17 @@
+{
+  "name": "@satispay-authentication/node-fetch",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "@types/node-fetch": "^2.5.5"
+  },
+  "dependencies": {
+    "node-fetch": "^2.6.0"
+  }
+}

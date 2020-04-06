@@ -1,0 +1,27 @@
+{
+  "name": "satispay-authentication",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Walter Barbagallo <brb.walter@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "examples/*",
+    "packages/*"
+  ],
+  "devDependencies": {
+    "dotenv": "^8.2.0",
+    "husky": "^4.2.3",
+    "lint-staged": "^10.1.2",
+    "prettier": "^2.0.2",
+    "typescript": "^3.8.3"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "**/*.{js,ts,tsx,md,json}": "prettier --write"
+  }
+}
