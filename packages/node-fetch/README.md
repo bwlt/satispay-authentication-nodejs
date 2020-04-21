@@ -1,5 +1,7 @@
 # @satispay-authentication/node-fetch
 
+[![npm version](https://badge.fury.io/js/%40satispay-authentication%2Fnode-fetch.svg)](https://badge.fury.io/js/%40satispay-authentication%2Fnode-fetch)
+
 This module contains an helper function for wrapping a `node-fetch` client in order to be used with [the Satispay API](https://developers.satispay.com/reference).  
 Check:
 
