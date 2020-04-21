@@ -1,5 +1,7 @@
 # @satispay-authentication/core
 
+[![npm version](https://badge.fury.io/js/%40satispay-authentication%2Fcore.svg)](https://badge.fury.io/js/%40satispay-authentication%2Fcore)
+
 This module will help you to [compose a signed request to Satispay API](https://developers.satispay.com/reference).  
 You can also use the following implementations:
 
